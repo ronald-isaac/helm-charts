@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: acs-helloworld-{{.Release.Name}}
-        image: neilpeterson/aks-helloworld:v1
+        image: 221639781053.dkr.ecr.us-east-1.amazonaws.com/sc-snowflake-service:dev-76
         ports:
         - containerPort: 80
         env:
