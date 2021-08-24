@@ -16,7 +16,7 @@ spec:
       - name: acs-helloworld-{{.Release.Name}}
         image: 221639781053.dkr.ecr.us-east-1.amazonaws.com/sc-snowflake-service:dev-76
         ports:
-        - containerPort: 80
+        - containerPort: 8094
         env:
         - name: TITLE
           value: {{ .Values.title }}
