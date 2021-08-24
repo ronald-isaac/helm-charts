@@ -12,6 +12,6 @@ spec:
     - http:
         paths:
         - backend:
-            serviceName: helloworld
+            serviceName: aks-helloworld
             servicePort: 80
           path: /hello-world
